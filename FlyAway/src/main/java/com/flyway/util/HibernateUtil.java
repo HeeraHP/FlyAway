@@ -27,7 +27,7 @@ public class HibernateUtil {
 			properties.setProperty(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
 			properties.setProperty(Environment.URL, "jdbc:mysql://localhost:3306/flyaway");
 			properties.setProperty(Environment.USER, "root");
-			properties.setProperty(Environment.PASS, "Prasanthi1@");
+			properties.setProperty(Environment.PASS, "root");
 			properties.setProperty(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
 			
 			properties.setProperty(Environment.SHOW_SQL, "true");
